@@ -85,6 +85,22 @@ header {
     bottom: 2%;
 }
 
+.flecha {
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    display: none;
+}
+
+.flecha:hover {
+    cursor: pointer;
+}
+
+.fa-arrow-alt-circle-up {
+    color: black;
+    font-size: 32px;
+}
+
 .socialicon {
     -webkit-transition: 1s linear;
     transition: 1s linear;
@@ -155,6 +171,12 @@ body {
         bottom: 2%;
         z-index: 5;
     }
+    .flecha {
+        position: fixed;
+        right: 5%;
+        bottom: 2%;
+        z-index: 5;
+    }
 }
 
 @media screen and (max-width: 653px) and (min-width: 481px) {
@@ -184,6 +206,12 @@ body {
     .social {
         position: fixed;
         right: 2%;
+        bottom: 2%;
+        z-index: 5;
+    }
+    .flecha {
+        position: fixed;
+        right: 5%;
         bottom: 2%;
         z-index: 5;
     }
@@ -218,6 +246,12 @@ body {
     .social {
         position: fixed;
         right: 2%;
+        bottom: 2%;
+        z-index: 5;
+    }
+    .flecha {
+        position: fixed;
+        right: 5%;
         bottom: 2%;
         z-index: 5;
     }
