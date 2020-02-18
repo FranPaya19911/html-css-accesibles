@@ -1,50 +1,50 @@
 $(function() {
-    $("aside.Entrada1").click(function() {
-        var posicion = $("article.Entrada1").offset();
+    $("#Entrada1").click(function() {
+        var posicion = $("#article_Entrada1").offset();
         $("html").animate({
-            scrollTop: position.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
-    $("aside.Entrada2").click(function() {
-        var posicion2 = $("article.Entrada2").offset();
+    $("#Entrada2").click(function() {
+        var posicion = $("#article_Entrada2").offset();
         $("html").animate({
-            scrollTop: position2.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
-    $("aside.Entrada3").click(function() {
-        var posicion = $("article.Entrada3").offset();
+    $("#Entrada3").click(function() {
+        var posicion = $("#article_Entrada3").offset();
         $("html").animate({
-            scrollTop: position.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
-    $("aside.Entrada4").click(function() {
-        var posicion = $("article.Entrada4").offset();
+    $("#Entrada4").click(function() {
+        var posicion = $("#article_Entrada4").offset();
         $("html").animate({
-            scrollTop: position.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
     $("#Entrada5").click(function() {
-        var posicion5 = $("#article_Entrada5").offset();
+        var posicion = $("#article_Entrada5").offset();
         $("html").animate({
-            scrollTop: posicion5.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
-    $("aside.#Entrada6").click(function() {
-        var posicion = $("article.#Entrada6").offset();
+    $("#Entrada6").click(function() {
+        var posicion = $("#article_Entrada6").offset();
         $("html").animate({
-            scrollTop: position.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
-    $("aside.Entrada7").click(function() {
-        var posicion = $("article.Entrada7").offset();
+    $("#Entrada7").click(function() {
+        var posicion = $("#article_Entrada7").offset();
         $("html").animate({
-            scrollTop: position.top
+            scrollTop: posicion.top - 100
         }, "slow")
     })
-    $("aside.Entrada8").click(function() {
-        var posicion = $("article.Entrada8").offset();
+    $("#Entrada8").click(function() {
+        var posicion = $("#article_Entrada8").offset();
         $("html").animate({
-            scrollTop: position.top
+            scrollTop: posicion.top
         }, "slow")
     })
 })
