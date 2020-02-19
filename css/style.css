@@ -94,7 +94,7 @@ header {
 
 .flecha {
     position: fixed;
-    right: 5%;
+    right: 65px;
     bottom: 2%;
     display: block;
 }
@@ -172,16 +172,8 @@ body {
         width: 90%;
         margin: 75px 5% 0px 5%;
     }
+    .flecha,
     .social {
-        position: fixed;
-        right: 2%;
-        bottom: 2%;
-        z-index: 5;
-    }
-    .flecha {
-        position: fixed;
-        right: 5%;
-        bottom: 2%;
         z-index: 5;
     }
 }
@@ -213,18 +205,6 @@ body {
     #bars {
         display: block;
     }
-    .social {
-        position: fixed;
-        right: 2%;
-        bottom: 2%;
-        z-index: 5;
-    }
-    .flecha {
-        position: fixed;
-        right: 5%;
-        bottom: 2%;
-        z-index: 5;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -252,17 +232,5 @@ body {
         text-decoration: none;
         padding: 5px 5px;
         display: block;
-    }
-    .social {
-        position: fixed;
-        right: 2%;
-        bottom: 2%;
-        z-index: 5;
-    }
-    .flecha {
-        position: fixed;
-        right: 5%;
-        bottom: 2%;
-        z-index: 5;
     }
 }
