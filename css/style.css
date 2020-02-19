@@ -63,6 +63,13 @@ nav li a:hover {
     color: #00477A;
 }
 
+#bars,
+#close {
+    display: none;
+    font-size: 40px;
+    padding: 5px 10px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -89,7 +96,7 @@ header {
     position: fixed;
     right: 5%;
     bottom: 2%;
-    display: none;
+    display: block;
 }
 
 .flecha:hover {
@@ -201,6 +208,9 @@ body {
         color: #656b6f;
         text-decoration: none;
         padding: 5px 10px;
+        display: none;
+    }
+    #bars {
         display: block;
     }
     .social {
