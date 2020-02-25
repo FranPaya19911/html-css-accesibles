@@ -14,5 +14,6 @@ $(function() {
         }, "slow")
     })
 
+    $("#bars").click(function() {})
 
 })
