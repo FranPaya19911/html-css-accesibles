@@ -176,7 +176,7 @@ body {
     }
 }
 
-@media screen and (max-width: 653px) and (min-width: 481px) {
+@media screen and (max-width: 653px) {
     .main {
         display: inline-block;
         width: 86%;
