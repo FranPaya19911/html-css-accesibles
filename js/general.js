@@ -14,6 +14,15 @@ $(function() {
         }, "slow")
     })
 
-    $("#bars").click(function() {})
+    $("#bars").click(function() {
+        $('#menu').css('transform', 'translateX(0%)');
+        $("#bars").hide();
+        $("#close").show();
+    })
 
+    $("#close").click(function() {
+        $('#menu').css('transform', 'translateX(+100%)');
+        $("#close").hide();
+        $("#bars").show();
+    })
 })
